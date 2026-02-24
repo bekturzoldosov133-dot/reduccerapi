@@ -1,0 +1,94 @@
+#home {
+  margin-top: 20px;
+  .home {
+    input {
+      color: white;
+      width: 200px;
+      height: 30px;
+      text-align: center;
+      background: #833ab4;
+      background: -webkit-linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+      background: -moz-linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+      background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833AB4", endColorstr="#FCB045", GradientType=1);
+      margin-left: 170px;
+    }
+    button {
+      color: white;
+      width: 100px;
+      height: 30px;
+      margin-left: 10px;
+      background: #833ab4;
+      background: -webkit-linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+      background: -moz-linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+      background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833AB4", endColorstr="#FCB045", GradientType=1);
+    }
+    .blog {
+      margin-top: 100px;
+      background-color: red;
+      width: 480px;
+      height: 470px;
+      border-radius: 15px;
+
+      h1 {
+        color: white;
+        padding-top: 20px;
+        margin-left: 40px;
+      }
+      h2 {
+        color: white;
+        margin-left: 40px;
+      }
+      img {
+        width: 400px;
+        margin-top: 15px;
+        object-fit: cover;
+        margin-left: 45px;
+      }
+      button {
+        margin-left: 170px;
+        margin-top: 10px;
+        display: flex;
+      }
+    }
+
+    .info {
+      h1 {
+        text-align: center;
+        //   margin-top: auto;
+        padding-top: 50px;
+      }
+    }
+  }
+}
